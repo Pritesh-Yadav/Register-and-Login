@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity" android:paddingBottom="16dp" android:paddingLeft="16dp" android:paddingTop="150dp" android:layout_below="@+id/activity" android:background="@drawable/bb">
+
+   <ImageView
+       android:id="@+id/header_cover_image"
+       android:layout_width="158dp"
+       android:layout_height="159dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:adjustViewBounds="true"
+       android:background="@drawable/bb"
+       app:srcCompat="@drawable/pic"
+       tools:layout_editor_absoluteX="117dp"
+       tools:layout_editor_absoluteY="200dp" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/header_cover_image"
+       android:layout_alignParentEnd="true"
+       android:layout_centerVertical="true"
+       android:layout_marginTop="80dp"
+       android:layout_marginEnd="102dp"
+       android:gravity="center"
+       android:text="Mobile Computing"
+       android:textColor="@color/colorPrimaryDark"
+       android:textSize="30dp"
+       tools:layout_editor_absoluteX="97dp"
+       tools:layout_editor_absoluteY="212dp" />
+</RelativeLayout>

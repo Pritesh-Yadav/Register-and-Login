@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvw" type="id">TextView</item>
+    <item name="eText" type="id">EditText</item>
+    <item name="currentpassword" type="id">currentpassword</item>
+</resources>
